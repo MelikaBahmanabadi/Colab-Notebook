@@ -1,0 +1,3 @@
+!pip install arviz==0.6.1
+!pip install pymc3==3.8
+!pip install Theano==1.0.4
