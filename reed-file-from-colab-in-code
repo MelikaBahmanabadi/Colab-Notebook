@@ -1,0 +1,4 @@
+from google.colab import drive
+drive.mount('/content/drive')
+#address your file like this: 
+BERTweet = RobertaModel.from_pretrained('/content/drive/My Drive/Colab Notebooks/BERTweet_base_fairseq', checkpoint_file='model.txt')
