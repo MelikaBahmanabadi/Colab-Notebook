@@ -1,0 +1,5 @@
+import pandas as pd
+from google.colab import drive
+drive.mount('/content/drive')
+data = pd.read_csv('/content/drive/My Drive/a.csv', sep='\t')
+data.to_excel('/content/drive/My Drive/b.xlsx', encoding='utf-8', index=False)
